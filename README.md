@@ -8,6 +8,10 @@ The lab covers Python development, virtual environments, GitHub repository manag
 
 For this implementation, I developed a student performance analyzer with a synthetic CSV dataset to demonstrate these concepts.
 
+## Changes from the Original Lab
+
+Instead of reusing the original calculator example, I developed a Student Performance Analyzer with a different application purpose and a new synthetic CSV dataset. I implemented functions to validate student records, calculate average exam scores and attendance, and identify students who may need additional academic support. I also added CSV data loading, error handling, and separate test suites using `pytest` and `unittest`. The project includes an original README and two GitHub Actions workflows to automatically run the tests. These changes make the project a distinct implementation while demonstrating the Python testing and continuous integration concepts covered in the lab.
+
 ## Project Overview
 
 The Student Performance Analyzer is a Python application that analyzes student performance records stored in a CSV file. It calculates average exam scores and attendance percentages and identifies students who may benefit from additional academic support.
